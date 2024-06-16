@@ -38,7 +38,7 @@ while more_questions=="Y":
     print(output)
     memory.save_context({"input": question}, {"output": output})
     more_questions=input("Do you want to continue(Y/N):")
-
+print('jelo')
 print(memory.load_memory_variables({}))
     
 
