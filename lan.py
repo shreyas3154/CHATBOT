@@ -18,10 +18,6 @@ Chat_history: {chat_history}
 Question: {question} 
 Answer:"""
 
-#st.set_page_config(page_title="ChatBot")
-#st.title('Langchain Chatbot ')
-#question = st.text_input("what is your question!")
-
 llm = OpenAI(model='gpt-3.5-turbo-instruct',
              temperature=0)
 
